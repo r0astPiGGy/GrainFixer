@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.rodev.grainfixer.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "SpriteLoaderAccessor",
+    "SpriteLoaderMixin"
+  ]
+}
